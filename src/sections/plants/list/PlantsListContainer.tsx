@@ -1,9 +1,9 @@
-import { usePlantsSelector } from '@/src/sections/hooks/store.ts'
 import useDeletePlant from '@/src/sections/plants/list/useDeletePlant.ts'
 import PlantsList from '@/src/sections/plants/list/PlantsList.tsx'
+import useGetPlants from '@/src/sections/plants/list/useGetPlants'
 
 const PlantsListContainer = () => {
-  const plants = usePlantsSelector()
+  const { plants } = useGetPlants()
   const { deletePlantById } = useDeletePlant()
 
   return (
