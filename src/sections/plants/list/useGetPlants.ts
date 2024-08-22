@@ -12,7 +12,6 @@ const useGetPlants = () => {
     new PlantsGetter(new GetPlantsSupabaseRepository())
       .run()
       .then((plants) => {
-        console.log('useGetPlants', plants)
         dispatch(setPlants(plants))
       })
       .catch((error) => {

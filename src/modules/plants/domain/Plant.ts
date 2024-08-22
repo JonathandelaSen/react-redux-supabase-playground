@@ -2,5 +2,5 @@ export default interface Plant {
   id: string
   name: string
   description: string
-  imageUrl: string
+  image_url?: string
 }

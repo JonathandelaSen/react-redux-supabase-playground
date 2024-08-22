@@ -1,6 +1,6 @@
 import './App.css'
-import AddPlantForm from '@/src/sections/plants/add_form/AddPlantForm.tsx'
-import PlantsListContainer from '@/src/sections/plants/list/PlantsListContainer.tsx'
+import AddPlantForm from '@/src/sections/plants/add_form/AddPlantForm/AddPlantForm.tsx'
+import PlantsListContainer from '@/src/sections/plants/list/PlantsList/PlantsListContainer.tsx'
 
 function App() {
   return (

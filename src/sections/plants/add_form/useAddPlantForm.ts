@@ -16,7 +16,6 @@ const useAddPlantForm = () => {
   } = useForm<FormData>({ reValidateMode: 'onSubmit' })
 
   const onSubmit = handleSubmit((data) => {
-    console.log('onSubmit')
     reset()
     addPlant(data.name, data.description, '')
   })

@@ -1,6 +1,6 @@
 import useAddPlantForm from '@/src/sections/plants/add_form/useAddPlantForm.ts'
-import LabelErrorForm from '@/src/sections/plants/add_form/LabelErrorForm.tsx'
-import style from '@/src/sections/plants/add_form/AddPlantForm.module.css'
+import LabelErrorForm from '@/src/sections/plants/add_form/LabelErrorForm/LabelErrorForm.tsx'
+import style from '@/src/sections/plants/add_form/AddPlantForm/AddPlantForm.module.css'
 
 const AddPlantForm: React.FC = () => {
   const { onSubmit, register, errors } = useAddPlantForm()

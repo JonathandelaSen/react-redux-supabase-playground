@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import Plant from '@/src/modules/plants/domain/Plant.ts'
-import styles from '@/src/sections/plants/list/PlantItem.module.css'
+import styles from '@/src/sections/plants/list/PlantItem/PlantItem.module.css'
 
 type Pops = {
   plant: Plant
